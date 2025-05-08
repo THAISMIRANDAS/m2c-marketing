@@ -1,3 +1,11 @@
+body {
+  margin:0; 
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1b2544;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +30,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -36,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+
